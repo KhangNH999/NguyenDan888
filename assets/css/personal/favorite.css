@@ -1,0 +1,127 @@
+.favorite-personal {
+    width: 554px;
+    height: max-content;
+}
+
+.title-favorite {
+    width: 100%;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 3px;
+}
+
+.title-favorite i {
+    border: 1px solid #1C6CC1;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 2px;
+    background: #1C6CC1;
+    color: #fff;
+    vertical-align: text-bottom;
+}
+
+.title-favorite span {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.box-favorite {
+    margin-top: 10px;
+    width: 100%;
+    height: max-content;
+}
+
+.title-box-favorite {
+    padding: 0px 12px;
+    width: max-content;
+    background: #fff;
+    color: #1c6cc1;
+    border: 2px solid #1c6cc1;
+    border-radius: 0px 14px 0px 14px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.box-favorite-data {
+    width: 100%;
+    max-height: 300px;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.box-favorite-data ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.box-favorite-data ul li {
+    border-bottom: 2px solid #ddd;
+    display: flex;
+    justify-content: left;
+    height: max-content;
+    background-color: #fff;
+    transition: background-color 0.2s linear;
+}
+
+.box-favorite-data ul li:last-child {
+    border-bottom: none;
+}
+
+.box-favorite-data ul li:hover {
+    background-color: #f3f7fc;
+}
+
+.control-favorite {
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.control-favorite form {
+    height: 100%;
+}
+
+.control-favorite form button {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.del-btn-favorite {
+    background-color: #f1aeb5;
+}
+
+.none-btn-favorite {
+    height: 100% !important;
+    background-color: #9ec5fe;
+    pointer-events: none;
+}
+
+.detail-favorite {
+    width: calc(100% - 30px);
+    height: max-content;
+    padding: 5px 10px;
+}
+
+.title-detail-favorite i {
+    background-color: #4BA66F;
+    color: #fff;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.title-detail-favorite a {
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.title-detail-favorite a:hover {
+    text-decoration: underline;
+}

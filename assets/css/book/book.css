@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#center-book {
+    width: 750px;
+    float: left;
+    min-height: auto;
+    margin: 0 auto;
+    margin-left: 28px;
+    margin-bottom: 50px;
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 24px;
+    box-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+}
+
+#center-book .title-book h2 {
+    font-size: 21px;
+    color: #111;
+}
+
+#center-book .title-book h2 i {
+    color: #1C6CC1;
+}
+
+#center-book .title-book th {
+    text-align: left;
+    width: 204px;
+}
+
+#center-book .title-book .title-book-first {
+    color: #000;
+    font-size: 21px;
+    margin-left: -5px;
+}
+
+#center-book .title-book .input-book {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    background: #EEE;
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 12px 0;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+}
+
+#apply-book {
+    text-align: right;
+    margin-top: 10px;
+}
+
+#apply-book #button-book {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 12px 98px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background: #1C6CC1;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#apply-book #button-cancel-book {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 12px 98px;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background: #EEE;
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.input-time {
+    background-color: #eee;
+    padding: 3px 20px;
+    margin-right: 20px;
+    border-radius: 12px;
+    display: inline-block;
+    width: 140px;
+}
+
+.time-lock {
+    background-color: #D53636;
+    color: #fff;
+}
+
+.book-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-date>button {
+    margin-left: 20px;
+    font-size: 12px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+}

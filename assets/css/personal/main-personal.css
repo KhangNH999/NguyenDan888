@@ -1,0 +1,379 @@
+#main-personal {
+    display: flex;
+    width: 750px;
+    float: left;
+    min-height: auto;
+    margin: 0 auto;
+    margin-left: 28px;
+}
+
+#main-personal #left-personal {
+    width: 167px;
+    margin-right: 36px;
+}
+
+#left-menu ul {
+    padding: 0;
+    margin: 0 0 12px;
+    border: 1px solid #ddd;
+    background: #fff;
+    box-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+    list-style: none;
+}
+
+#left-menu li>a {
+    display: block;
+    padding: 12px;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.1;
+    text-decoration: none;
+}
+
+#left-menu li>a:hover {
+    background: #f6f6f6;
+}
+
+#left-menu li a>i {
+    margin-right: 12px;
+    color: #333;
+}
+
+#left-menu li+li {
+    border-top: 1px solid #ddd;
+}
+
+#left-menu li.selected {
+    background-color: #f3f7fc;
+}
+
+#left-menu li.selected a>i,
+#left-menu li.selected a>span {
+    color: #1c6cc1;
+}
+
+#left-menu .sum {
+    font-weight: bold;
+}
+
+#main-personal #center-personal {
+    width: 554px;
+}
+
+#user-header {
+    position: relative;
+    margin: 0 0 24px;
+}
+
+#user-header .picture {
+    margin: 12px 0;
+    text-align: center;
+}
+
+#user-header .picture img {
+    width: 84px;
+    height: 84px;
+    border-radius: 42px;
+    object-fit: cover;
+}
+
+#user-header .name {
+    font-weight: bold;
+    text-align: center;
+}
+
+#user-header .name>a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    padding: 0;
+}
+
+#user-header .name a:hover {
+    text-decoration: underline;
+}
+
+#user-header .status {
+    font-size: 14px;
+    text-align: center;
+    color: #1c6cc1;
+}
+
+#user-header .status i {
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+#user-header .status .type {
+    color: #1FA51D;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+#user-menu {
+    display: table;
+    width: 100%;
+    margin: 0 0 24px;
+    padding: 0;
+    border-top: 2px solid #ddd;
+    text-decoration: none;
+    list-style: none;
+}
+
+#user-menu li {
+    display: table-cell;
+    width: 25%;
+}
+
+#user-menu li+li {
+    padding-left: 2px;
+}
+
+#user-menu li>a {
+    display: block;
+    padding: 12px 0;
+    border-bottom: 3px solid #ddd;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #444;
+}
+
+#user-menu li a>span {
+    margin-left: 4px;
+}
+
+#user-menu a:hover,
+#user-menu .selected a {
+    border-color: #1C6CC1;
+    color: #1C6CC1;
+}
+
+#user-menu .disabled a {
+    color: #CCC;
+    border-color: #EEE;
+    cursor: default;
+    pointer-events: none;
+}
+
+#profile {
+    position: relative;
+}
+
+#profile h3 {
+    margin: 0 auto 12px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+#profile h3 i {
+    color: #1c6cc1;
+}
+
+#profile h3 .user-name {
+    margin-left: 5px;
+}
+
+#profile #edit-ac,
+.up-permission {
+    position: absolute;
+    display: inline-block;
+    padding: 6px;
+    border-radius: 4px;
+    background: #E8F0F8;
+    font-size: 11px;
+    line-height: 1.1;
+    text-decoration: none;
+    color: #1c6cc1;
+    right: 0;
+    top: 0;
+}
+
+.up-permission {
+    right: 178px;
+}
+
+.up-permission button {
+    margin-left: 3px;
+    background-color: transparent;
+    border: none;
+    color: #1c6cc1;
+}
+
+#profile #edit-ac:hover {
+    opacity: 0.8;
+}
+
+#profile #edit-pass {
+    position: absolute;
+    display: inline-block;
+    padding: 6px;
+    border-radius: 4px;
+    background: #E8F0F8;
+    font-size: 11px;
+    line-height: 1.1;
+    text-decoration: none;
+    color: #1c6cc1;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    right: 80px;
+    top: 0;
+}
+
+#profile #edit-pass:hover {
+    opacity: 0.8;
+}
+
+#line-table {
+    width: 100%;
+    margin: 0 0 24px;
+    border-top: 2px solid #ddd;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#line-table tr {
+    border-bottom: 2px solid #ddd;
+}
+
+#line-table th {
+    width: 1%;
+    white-space: nowrap;
+    padding: 15px 12px 12px 0;
+    vertical-align: top;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#line-table td {
+    padding: 12px 0;
+    font-size: 14px;
+    line-height: 1.57;
+}
+
+#modal {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: #fff;
+    width: 500px;
+    height: 326px;
+    flex-direction: column;
+}
+
+#modal.active {
+    transform: translate(-50%, -50%) scale(1);
+    flex-direction: column;
+}
+
+#modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#modal-header .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#modal-header .title i {
+    color: #1c6cc1;
+}
+
+#modal-header .close-btn {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#modal-body {
+    padding: 10px 15px;
+}
+
+#overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+}
+
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+#modal-body {
+    text-align: center;
+}
+
+#modal-body .label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#modal-body input {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    background: #EEE;
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 12px 0;
+}
+
+#btn-new-pass {
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+    background: #1c6cc1;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.title-follow {
+    font-size: 21px;
+    padding-bottom: 9px;
+    margin: 0;
+}
+
+.title-follow>i {
+    border: 1px solid #1C6CC1;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 2px;
+    background: #1C6CC1;
+    color: #fff;
+    vertical-align: text-bottom;
+}
+
+#center-personal .none {
+    text-align: center;
+    padding: 12px 0;
+    border-bottom: 2px solid #ddd;
+    border-top: 2px solid #ddd;
+}
+
+#center-personal .none span {
+    color: #ddd;
+    font-size: 16px;
+}

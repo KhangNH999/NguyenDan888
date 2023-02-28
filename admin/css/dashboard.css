@@ -1,0 +1,168 @@
+.chart-number,
+.chart-price {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    margin-right: 15px;
+}
+
+.chart-number {
+    border-bottom: 2px solid #ddd;
+}
+
+.chart-price {
+    margin-top: 20px;
+}
+
+.dashboard {
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-detail {
+    width: 100%;
+    height: 26%;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dashboard-detail:last-child {
+    margin-bottom: 0;
+}
+
+.dashboard-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.dashboard-group .form-select {
+    width: max-content;
+    height: max-content;
+    padding-right: 5px;
+}
+
+.form-select select {
+    padding: 3px;
+    border-radius: 12px;
+    outline: none;
+}
+
+.form-select button {
+    padding: 3px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.dashboard-title {
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    width: max-content;
+}
+
+.dashboard-title::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 3px;
+    background-color: #000;
+}
+
+.dashboard-number {
+    text-align: right;
+    padding: 5px;
+    margin-right: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.pitch-title::before {
+    background-color: #b91d47;
+}
+
+.pitch-title,
+.pitch-number {
+    color: #b91d47;
+}
+
+.blog-title::before {
+    background-color: #00aba9;
+}
+
+.blog-title,
+.blog-number {
+    color: #00aba9;
+}
+
+.contest-title::before {
+    background-color: #2b5797;
+}
+
+.contest-title,
+.contest-number {
+    color: #2b5797;
+}
+
+.price-month-title::before {
+    background-color: #fd7e14;
+}
+
+.price-month-title,
+.price-month-number {
+    color: #fd7e14;
+}
+
+.price-year-title::before {
+    background-color: #cc9a06;
+}
+
+.price-year-title,
+.price-year-number {
+    color: #cc9a06;
+}
+
+.dashboard-title-detail {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.dashboard-number-detail {
+    display: flex;
+    justify-content: space-around;
+    height: max-content;
+}
+
+.dashboard-detail-box {
+    text-align: center;
+    width: 100px;
+}
+
+.db-box-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.db-box-number {
+    font-size: 35px;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+}

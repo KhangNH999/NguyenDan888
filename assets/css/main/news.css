@@ -1,0 +1,265 @@
+#content {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.left {
+    width: 750px;
+    float: left;
+    min-height: auto;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+#right {
+    width: 400px;
+    float: right;
+    /* min-height: 400px; */
+    margin: 0 auto;
+    position: sticky;
+    top: 50px;
+    margin-right: 17px;
+}
+
+.left .title-news {
+    display: flex;
+    justify-content: left;
+    justify-items: center;
+    color: #000;
+    font-size: 21px;
+    margin-left: 33px;
+}
+
+.left ul li {
+    width: 750px;
+    list-style: none;
+    font-weight: bold;
+    text-indent: -11px;
+}
+
+.left ul .contest-teams {
+    text-indent: 0px;
+}
+
+.left ul .contest-teams {
+    text-indent: 0px;
+}
+
+.contest-table {
+    padding: 5px;
+    border: 2px solid #ddd;
+    background: #dddddd29;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contest-table .teams-detail {
+    min-width: 330px;
+}
+
+.contest-table .right {
+    text-align: right;
+}
+
+.teams-detail .teams-name {
+    font-size: 18px;
+    padding: 0 10px;
+    font-weight: 400;
+}
+
+.teams-detail i {
+    font-size: 15px;
+}
+
+.teams-detail .teams-number {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.left ul li img {
+    width: 36px;
+    height: 36px;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+.left ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    line-height: 1;
+}
+
+.left ul li a:hover {
+    text-decoration: underline;
+}
+
+.left ul p {
+    font-size: 13px;
+    color: #000;
+    font-weight: 300;
+}
+
+.badge-like,
+.badge-follow,
+.badge-comment {
+    font-size: 10px;
+    padding: 0px 8px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 3px;
+}
+
+.badge-like {
+    background: #D53636;
+}
+
+.badge-follow {
+    background: #FFB829;
+}
+
+.badge-comment {
+    background: #1C6CC1;
+}
+
+.left ul li p {
+    font-size: 13px;
+    padding-left: 11px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.left ul li p a {
+    color: #1C6CC1;
+    font-weight: 500;
+}
+
+.left ul hr {
+    width: 750px;
+    margin: 10px 0px;
+}
+
+/* Add more page bottom */
+.left h4 {
+    margin-left: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.left h4 a {
+    font-weight: bold;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+}
+
+.left h4 a:hover {
+    text-decoration: underline;
+}
+
+/* end */
+#right .title-popular {
+    display: flex;
+    justify-content: left;
+    justify-items: center;
+    color: #000;
+    font-size: 21px;
+    margin-left: 33px;
+}
+
+.left .bl-content-blog li {
+    float: left;
+    width: 700px;
+}
+
+.left ul.bottom-new li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bl-content-blog {
+    margin-right: 10px;
+}
+
+a.user-blog {
+    padding: 0;
+    font-size: 13px !important;
+}
+
+.popular {
+    border-top: 2px solid #ddd;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.popular:last-child {
+    border-bottom: 2px solid #ddd;
+}
+
+.popular>li {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.popular-title {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.popular-content {
+    text-decoration: none;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 0px 12px;
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+}
+
+.popular-content:hover {
+    border: 1px solid #1C6CC1;
+    background-color: #f3f7fc;
+    color: #000;
+}
+
+.top-title {
+    width: 80%;
+    line-height: 25px;
+    margin-top: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.top-number {
+    width: 20%;
+    text-align: right;
+}
+
+.top-img>img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: -5px;
+    object-fit: cover;
+}
+
+.title-user {
+    width: 60%;
+}
+
+.number-user {
+    width: 40%;
+}

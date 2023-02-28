@@ -1,0 +1,154 @@
+.rating-user-personal {
+    width: 554px;
+    height: max-content;
+}
+
+.title-rating-user {
+    width: 100%;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 3px;
+}
+
+.title-rating-user i {
+    border: 1px solid #1C6CC1;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 2px;
+    background: #1C6CC1;
+    color: #fff;
+    vertical-align: text-bottom;
+}
+
+.title-rating-user span {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.list-rating-user {
+    margin-top: 10px;
+    width: 100%;
+    max-height: 500px;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.list-rating-user ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-rating-user ul li {
+    border-bottom: 2px solid #ddd;
+    display: flex;
+    justify-content: left;
+    height: max-content;
+    background-color: #fff;
+    transition: background-color 0.2s linear;
+}
+
+.list-rating-user ul li:last-child {
+    border-bottom: none;
+}
+
+.list-rating-user ul li:hover {
+    background-color: #f3f7fc;
+}
+
+.control-rating-user {
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.control-rating-user form {
+    height: 100%;
+}
+
+.control-rating-user form button {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.del-btn-rating-user {
+    background-color: #f1aeb5;
+}
+
+.none-btn-rating-user {
+    height: 100% !important;
+    background-color: #9ec5fe;
+    pointer-events: none;
+}
+
+.detail-rating-user {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+    justify-items: center;
+}
+
+.img-rating-user {
+    margin-right: 8px;
+    align-self: center;
+}
+
+.img-rating-user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-rating-user {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    border-right: 1px solid #ddd;
+    justify-content: center;
+}
+
+.name-rating-user {
+    margin-top: -5px;
+}
+
+.name-rating-user a {
+    padding: 0;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.name-rating-user a:hover {
+    text-decoration: underline;
+}
+
+.time-rating-user {
+    margin-top: -10px;
+    font-size: 13px;
+    color: #adb5bd;
+}
+
+.star-rating-user {
+    align-self: center;
+    padding: 0 10px;
+    width: 62px;
+}
+
+.content-rating-user {
+    border-left: 1px solid #ddd;
+}
+
+.content-rating-user p {
+    padding: 0px 5px;
+    width: 240px;
+    margin: 0;
+    height: max-content;
+    font-size: 14px;
+    font-weight: 300;
+}

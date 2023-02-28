@@ -1,0 +1,151 @@
+.participation-personal {
+    width: 554px;
+    height: max-content;
+}
+
+.title-participation {
+    width: 100%;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 3px;
+}
+
+.title-participation i {
+    border: 1px solid #1C6CC1;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 2px;
+    background: #1C6CC1;
+    color: #fff;
+    vertical-align: text-bottom;
+}
+
+.title-participation span {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.participation-container {
+    margin-top: 10px;
+    width: 100%;
+    height: max-content;
+}
+
+.box-data {
+    width: 100%;
+    max-height: 300px;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.box-data ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.box-data ul li {
+    border-bottom: 2px solid #ddd;
+    display: flex;
+    justify-content: left;
+    height: max-content;
+    background-color: #fff;
+    transition: background-color 0.2s linear;
+}
+
+.box-data ul li:last-child {
+    border-bottom: none;
+}
+
+.box-data ul li:hover {
+    background-color: #f3f7fc;
+}
+
+.control-participation {
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.control-participation form {
+    height: 100%;
+}
+
+.control-participation form button {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.del-btn-participation {
+    background-color: #f1aeb5;
+}
+
+.none-btn-participation {
+    height: 100% !important;
+    background-color: #9ec5fe;
+    pointer-events: none;
+}
+
+.detail-data {
+    width: calc(100% - 30px);
+    height: max-content;
+    padding: 5px 10px;
+}
+
+.title-data i {
+    background-color: #4BA66F;
+    color: #fff;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.title-data a {
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.title-data a:hover {
+    text-decoration: underline;
+}
+
+.content-data i {
+    background-color: #cfcf5b;
+    color: #fff;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.content-data span {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 300;
+    background-color: #000;
+    color: #fff;
+    padding: 1px 4px;
+    border-radius: 4px;
+}
+
+.time-data {
+    text-align: right;
+}
+
+.time-data i {
+    background-color: #4ba1a6;
+    color: #fff;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.time-data span {
+    font-size: 11px;
+    font-style: italic;
+}

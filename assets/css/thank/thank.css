@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#center-thank {
+    width: 1114px;
+    float: left;
+    margin: 0 auto;
+    margin-left: 28px;
+    margin-bottom: 50px;
+    background: #fff;
+    font-size: 16px;
+}
+#center-thank p a{
+    font-size: 14px;
+    margin-left: -6px;
+}

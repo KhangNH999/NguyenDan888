@@ -1,0 +1,248 @@
+.container-about {
+  position: relative;
+  width: 1165px;
+  margin: 0 auto;
+}
+
+.main-about {
+  display: flex;
+  flex-direction: column;
+}
+
+.ab-log {
+  margin-bottom: 150px;
+}
+
+.ab-wrapper-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 40px 0px;
+}
+
+.wall-leaves {
+  color: #1C6CC1;
+  font-size: 50px;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.l75 i {
+  transform: rotate(75deg);
+}
+
+.l170 i {
+  transform: rotate(170deg);
+}
+
+.l250 i {
+  transform: rotate(250deg);
+}
+
+
+/* tieu de content wrapper 1*/
+.ab-title {
+  font-family: 'Alegreya', serif;
+  font-size: 30px;
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 5px 50px;
+  border-top: 4px double #1C6CC1;
+  border-bottom: 4px double #1C6CC1;
+}
+
+.ab-content-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 10px;
+  border: 4px solid #1C6CC1;
+  border-radius: 5px 20px 5px 20px;
+  color: #1C6CC1;
+}
+
+
+
+.ab-content-content {
+  font-size: 16px;
+  padding: 10px;
+  background-color: #1C6CC1;
+  margin-top: 10px;
+  border-radius: 5px 20px 5px 20px;
+  min-height: 200px;
+  color: #fff;
+  font-style: italic;
+}
+
+.ab-title-right,
+.ab-content-right {
+  border-radius: 20px 5px 20px 5px;
+}
+
+.ab-banner-left,
+.ab-banner-right {
+  width: 45%;
+  height: max-content;
+  margin: 16px;
+}
+
+.ab-banner-right {
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.ab-banner-content img {
+  width: 100%;
+  height: 275px;
+  object-fit: cover;
+  transition: all ease-in 0.3s;
+}
+
+.ab-banner-content img:hover {
+  transform: scale(1.1);
+}
+
+/* seccsion 2 */
+.about-language {
+  margin-bottom: 150px;
+}
+
+.ab-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+}
+
+.ab-wrapper {
+  --borderWidth: 4px;
+  background: #fff;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+
+.ab-wrapper:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+
+@keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.ab-top-icon {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+  font-family: cursive;
+  width: 80%;
+}
+
+.ab-top-icon div i {
+  margin-right: 7px;
+}
+
+.ab-top-icon div:nth-child(1) i {
+  color: #e34f26;
+}
+
+.ab-top-icon div:nth-child(2) i {
+  color: #1572b6;
+}
+
+.ab-top-icon div:nth-child(3) i {
+  color: #f1bf22;
+}
+
+.ab-top-icon div:nth-child(4) i {
+  color: #7511f6;
+}
+
+.ab-top-icon div:nth-child(5) i {
+  color: #777bb3;
+}
+
+/* Member */
+.about-member {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1C6CC1;
+  border-radius: 16px;
+}
+
+.about-member-details {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 16px;
+  width: 80%;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.ab-member {
+  text-align: center;
+}
+
+.ab-member img {
+  border-radius: 150px;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  padding: 15px;
+}
+
+.ab-content-member {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.ab-content-part {
+  text-align: center;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  margin-bottom: 20px;
+}
+
+.ab-content-member .name {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #1C6CC1;
+}
+
+.ab-content-member .job {
+  font-weight: 300;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.ab-content-member a {
+  padding: 0;
+  color: #000;
+}
+
+.ab-content-member a i {
+  padding: 0;
+  font-size: 40px;
+}

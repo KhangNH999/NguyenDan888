@@ -1,0 +1,229 @@
+#main-userProfile {
+    display: flex;
+    width: 750px;
+    float: left;
+    min-height: auto;
+    margin: 0 auto;
+    margin-left: 28px;
+}
+
+#main-userProfile #left-userProfile {
+    width: 167px;
+    margin-right: 36px;
+}
+
+#left-menu ul {
+    padding: 0;
+    margin: 0 0 12px;
+    border: 1px solid #ddd;
+    background: #fff;
+    box-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+    list-style: none;
+}
+
+#left-menu li>a {
+    display: block;
+    padding: 12px;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.1;
+    text-decoration: none;
+}
+
+#left-menu li>a:hover {
+    background: #f6f6f6;
+}
+
+#left-menu li a>i {
+    margin-right: 12px;
+    color: #333;
+}
+
+#left-menu li+li {
+    border-top: 1px solid #ddd;
+}
+
+#left-menu li.selected {
+    background-color: #f3f7fc;
+}
+
+#left-menu a.selected,
+#left-menu .selected>a:hover {
+    color: #1c6cc1;
+}
+
+#left-sub-menu {
+    border-top: dotted 1px rgba(0, 0, 0, 0.1);
+    padding: 8px 0;
+}
+
+#left-sub-menu a {
+    display: block;
+    padding: 4px 12px 4px 38px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    text-decoration: none;
+}
+
+#left-sub-menu a:hover {
+    text-decoration: underline;
+}
+
+#left-menu .sum {
+    font-weight: bold;
+}
+
+#main-userProfile #center-userProfile {
+    width: 554px;
+}
+
+#main-userProfile #user-header {
+    position: relative;
+    margin: 0 0 24px;
+}
+
+#main-userProfile #user-header .picture {
+    margin: 12px 0;
+    text-align: center;
+}
+
+#main-userProfile #user-header .picture img {
+    width: 84px;
+    height: 84px;
+    border-radius: 42px;
+    object-fit: cover;
+}
+
+#main-userProfile #user-header .name {
+    font-weight: bold;
+    text-align: center;
+}
+
+#main-userProfile #user-header .name a {
+    text-decoration: none;
+    color: #000;
+    padding: 0;
+}
+
+#main-userProfile #user-header .name a:hover {
+    text-decoration: underline;
+}
+
+#main-userProfile #user-header .status {
+    font-size: 14px;
+    text-align: center;
+    color: #1c6cc1;
+}
+
+#main-userProfile #user-header .status i {
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+#main-userProfile #user-header .status .type {
+    color: #1FA51D;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+#main-userProfile #user-menu {
+    display: table;
+    width: 100%;
+    margin: 0 0 24px;
+    padding: 0;
+    border-top: 1px solid #ddd;
+    text-decoration: none;
+    list-style: none;
+}
+
+#main-userProfile #user-menu li {
+    display: table-cell;
+    width: 25%;
+}
+
+#main-userProfile #user-menu li+li {
+    padding-left: 2px;
+}
+
+#main-userProfile #user-menu li>a {
+    display: block;
+    padding: 12px 0;
+    border-bottom: 3px solid #ddd;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #444;
+}
+
+#main-userProfile #user-menu li a>span {
+    margin-left: 4px;
+}
+
+#main-userProfile #center-userProfile #user-menu a:hover,
+#main-userProfile #center-userProfile #user-menu .selected a {
+    border-color: #1C6CC1;
+    color: #1C6CC1;
+}
+
+#main-userProfile #user-menu .disabled a {
+    color: #CCC;
+    border-color: #EEE;
+    cursor: default;
+}
+
+#main-userProfile #profile {
+    position: relative;
+}
+
+#main-userProfile #profile h3 {
+    margin: 0 auto 12px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#main-userProfile #profile h3 i {
+    color: #1c6cc1;
+}
+
+#main-userProfile #profile h3 .user-name {
+    margin-left: 5px;
+}
+
+#main-userProfile #line-table {
+    width: 100%;
+    margin: 0 0 24px;
+    border-top: 1px solid #ddd;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#main-userProfile #line-table th {
+    width: 1%;
+    white-space: nowrap;
+    padding: 15px 12px 12px 0;
+    border-bottom: solid 1px #DDD;
+    vertical-align: top;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#main-userProfile #line-table td {
+    padding: 12px 0;
+    border-bottom: solid 1px #DDD;
+    font-size: 14px;
+    line-height: 1.57;
+}
+
+#main-userProfile #center-userProfile .none {
+    text-align: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#main-userProfile #center-userProfile .none span {
+    color: #ddd;
+    font-size: 16px;
+}

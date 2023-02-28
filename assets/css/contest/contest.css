@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#left-contest-center {
+    width: 750px;
+    float: left;
+    min-height: auto;
+    margin: 0 auto;
+    margin-left: 28px;
+}
+
+#left-contest-center .title-contest-all {
+    font-size: 21px;
+    color: #000;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+    padding: 5px;
+}
+
+#left-contest-center a {
+    margin: 0;
+    padding: 0;
+}
+
+#left-contest-center .title-contest {
+    display: flex;
+    justify-content: left;
+    justify-items: center;
+    color: #000;
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+#left-contest-center .search-submit {
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#left-contest-center #input-keywork {
+    padding: 10px 10px 8px;
+    border: none;
+    border-radius: 4px;
+    background: #f3f7fc;
+    font-size: 12px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #1C6CC1;
+    outline: none;
+    width: 80%;
+}
+
+#left-contest-center .btn {
+    font-size: 12px;
+    font-size: 1rem;
+    line-height: 30px;
+    height: 42px;
+    border: none;
+    border-radius: 4px;
+    background: #1c6cc1;
+    color: #fff;
+    width: 19%;
+}
+
+#left-contest-center .btn:hover {
+    background: #508dce;
+}
+
+#left-contest-center ul.list {
+    border-top: 2px solid #ddd;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#left-contest-center .contest {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 0;
+}
+
+#left-contest-center .text {
+    margin-right: 10px;
+}
+
+#left-contest-center .title>a:hover {
+    text-decoration: underline;
+}
+
+#left-contest-center .title {
+    margin: 0;
+    line-height: 0.5;
+    font-weight: bold;
+}
+
+#left-contest-center .title>a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    line-height: 1;
+}
+
+#left-contest-center .sub {
+    padding-top: 4px;
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    justify-items: center;
+    line-height: 40px;
+}
+
+#left-contest-center .sub>a,
+#left-contest-center .sub>span {
+    margin-top: 3px;
+    margin-right: 6px;
+    font-size: 13px;
+    color: #1c6cc1;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#left-contest-center .sub>img {
+    transform: translateY(50%);
+    margin-right: 5px;
+}
+
+#left-contest-center .sub>a:hover {
+    text-decoration: underline;
+}
+
+#left-contest-center .sub .time-left {
+    font-size: 13px;
+    padding: 0 10px;
+    color: #30bc40;
+    border-radius: 12px;
+    width: max-content;
+    position: relative;
+    font-weight: bold;
+}
+
+.sub .teams-number {
+    margin-left: 8px;
+    padding: 0 10px;
+    position: relative;
+    font-size: 13px;
+}
+
+.sub .teams-number::before {
+    position: absolute;
+    content: "";
+    top: 11px;
+    left: 0;
+    bottom: 10px;
+    right: 0;
+    border-radius: 10px;
+    background-color: #fd7e14;
+    opacity: 0.1;
+}
+
+.sub .teams-number>i {
+    font-size: 13px;
+}
+
+.sub .teams-number>span {
+    font-weight: bold;
+}
+
+#left-contest-center .sub .finished {
+    color: rgb(254, 89, 95);
+}
+
+#left-contest-center .sub .time-left::before {
+    position: absolute;
+    content: "";
+    top: 11px;
+    left: 0;
+    bottom: 10px;
+    right: 0;
+    border-radius: inherit;
+    background-color: currentColor;
+    opacity: 0.1;
+}
+
+#left-contest-center .sub2 {
+    list-style: none;
+}
+
+#left-contest-center .sub2>li {
+    margin-top: 3px;
+}
+
+#left-contest-center .sub2 {
+    margin: 0px -31px 0px;
+    font-size: 12px;
+    color: #000;
+    font-weight: 300;
+    line-height: 1;
+}
+
+#left-contest-center .sub2 li i {
+    background-color: #1c6cc1;
+    padding: 4px;
+    color: #FFF;
+    font-size: 9px;
+    border-radius: 4px;
+}

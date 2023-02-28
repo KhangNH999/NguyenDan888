@@ -1,0 +1,172 @@
+.tab-select {
+  width: 1165px;
+  margin: 0 auto;
+  height: 50px;
+  margin-bottom: 10px;
+  padding: 0 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#btn-history {
+  background-color: #1C6CC1;
+  color: #fff;
+}
+
+#btn-turnover {
+  background-color: #F0F0F0;
+  color: #000;
+}
+
+.tab-select button {
+  width: 50%;
+  outline: none;
+  border: 1px solid #ddd;
+}
+
+#history-user {
+  display: block;
+}
+
+#turnover {
+  display: none;
+}
+
+.center-his {
+  width: 1165px;
+  margin: 0 auto;
+}
+
+.title-his {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12px;
+}
+
+.statistical {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  border: 1px solid #ddd;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.number-statistical {
+  font-size: 30px;
+}
+
+.data-his {
+  height: max-content;
+  margin: 12px 12px 0px 12px;
+}
+
+.list-his {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.content-his {
+  display: flex;
+  justify-content: space-between;
+  height: max-content;
+  padding: 15px 0px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.his-detail-right,
+.his-detail-left {
+  width: 550px;
+  height: max-content;
+}
+
+.wall {
+  height: 145px;
+  width: 2px;
+  background-color: #ddd;
+}
+
+.detail-his {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 5px;
+}
+
+.label,
+.data,
+.link {
+  margin-bottom: 0px;
+  height: max-content;
+}
+
+.label {
+  font-weight: 500;
+  width: 135px;
+}
+
+.data {
+  margin-left: 20px;
+}
+
+.close {
+  color: rgb(254, 89, 95);
+  font-style: italic;
+}
+
+.open {
+  color: #30bc40;
+  font-style: italic;
+}
+
+.status-1 {
+  border: 0;
+  border-radius: 6px;
+  background: rgb(189, 239, 196);
+  padding: 0 5px;
+  box-shadow: 0 3px 0 #30bc40;
+}
+
+.status-0 {
+  border: 0;
+  border-radius: 6px;
+  background: rgb(255, 230, 231);
+  padding: 0 5px;
+  box-shadow: 0 3px 0 rgb(254, 89, 95);
+}
+
+.link>a {
+  font-size: 13px;
+  line-height: 1;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.link>a:hover {
+  text-decoration: underline;
+}
+
+.tbl-his {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.tbl-title {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.tbl-data {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.non-his {
+  font-style: italic;
+}

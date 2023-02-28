@@ -1,0 +1,27 @@
+#center-pitchManager {
+    width: 554px;
+}
+.title-pitchManager {
+    font-size: 21px;
+    padding-bottom: 9px;
+    border-bottom: 0.5px solid #ddd;
+    margin: 0;
+}
+
+.title-pitchManager > i {
+    border: 1px solid #1C6CC1;
+    font-size: 13px;
+    margin-top: 2px;
+    padding: 5px;
+    vertical-align: text-top;
+    border-radius: 2px;
+    background: #1C6CC1;
+    color: #fff;
+}
+
+.none {
+    text-align: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+    color: #ddd;
+}

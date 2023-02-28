@@ -1,0 +1,238 @@
+#content {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.left-setpicth {
+  width: 750px;
+  float: left;
+  min-height: auto;
+  margin: 0 auto;
+  margin-left: 28px;
+  /* margin-bottom: 50px; */
+}
+
+.left-setpicth .title {
+  font-size: 21px;
+  color: #000;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  box-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+  padding: 5px;
+}
+
+.set-pitch-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.set-pitch {
+  border-top: solid 2px #ddd;
+}
+
+.set-pitch-list>li {
+  position: relative;
+  padding: 16px 0;
+}
+
+.set-pitch-list .title-setpitch p a {
+  /* margin-left: -11px; */
+  line-height: 1.5;
+  text-decoration: none;
+  color: #000 !important;
+  font-weight: 600;
+  font-size: 100%;
+}
+
+.set-pitch-list p a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.set-pitch-list>li.new-i .title-setpitch .new {
+  display: inline-block;
+  margin: 5px -11px 0 0;
+  padding: 3px;
+  border-radius: 3px;
+  background: #f44a4f;
+  font-size: 10px;
+  color: #fff;
+  line-height: 1;
+  vertical-align: top;
+  font-weight: normal;
+}
+
+.set-pitch-list .author {
+  margin: -21px -10px 0px;
+  line-height: 20px;
+}
+
+.set-pitch-list .author img {
+  margin-right: 4px;
+  border-radius: 10px;
+  margin-top: -2px;
+}
+
+.set-pitch-list .author a {
+  text-decoration: none;
+  color: #1c6cc1;
+  font-weight: 500;
+}
+
+.sub {
+  list-style: none;
+}
+
+.sub>li {
+  margin-top: 3px;
+}
+
+.set-pitch-list .sub {
+  margin: 0px -31px 0px;
+  font-size: 12px;
+  color: #000;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.set-pitch-list .sub li+li {
+  margin-top: 4px;
+}
+
+.set-pitch-list .sub li i {
+  background-color: #1c6cc1;
+  padding: 4px;
+  color: #fff;
+  font-size: 9px;
+  border-radius: 4px;
+}
+
+.tags {
+  margin: 0 -6px -6px -32px;
+  list-style: none;
+}
+
+.tags li {
+  float: left;
+  margin: 0 6px 6px 0;
+}
+
+.tags a {
+  border: solid 1px #d2e2f3;
+  border-radius: 4px;
+  font-size: 11px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.tags a:hover {
+  border-color: #1c6cc1;
+  background: #1c6cc1;
+  color: #fff;
+}
+
+.set-pitch-list .tags {
+  overflow: hidden;
+  max-height: 31px;
+  padding-right: 100px;
+}
+
+.page {
+  display: inline-block;
+  padding: 10px 0px;
+  text-align: center;
+  width: 100%;
+  border-bottom: 2px solid #ddd;
+  border-top: 2px solid #ddd;
+}
+
+.page p {
+  margin-bottom: 10px;
+}
+
+ul.list-page {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+ul.list-page li {
+  float: left;
+  padding: 2px 10px;
+  border-radius: 50%;
+  border: 1px solid #1c6cc1;
+  margin: 0 5px;
+  background: #fff;
+  text-align: center;
+}
+
+ul.list-page li:hover,
+ul.list-page li:hover a {
+  background: #1c6cc1;
+  color: #fff;
+}
+
+ul.list-page li a {
+  padding: 0;
+  line-height: 1;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btn-del {
+  position: absolute;
+  bottom: 12px;
+  right: 0;
+  border: none;
+  background: none;
+  color: #f44a4f;
+  font-size: 20px;
+}
+
+.btn-edit {
+  position: absolute;
+  bottom: 40px;
+  right: -2px;
+  border: none;
+  background: none;
+  color: #4ba66f;
+  font-size: 20px;
+}
+
+.btn-del:hover,
+.btn-edit:hover {
+  opacity: 0.5;
+}
+
+.set-pitch-list .author a:hover {
+  text-decoration: underline;
+}
+
+.seperate {
+  color: #888;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.count-handle {
+  color: #888;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.frame-time-screen>span {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 2px 5px;
+  width: 90px;
+  background-color: #f3f7fc;
+  display: inline-block;
+  text-align: center;
+}
+
+.frame-time-screen {
+  margin-bottom: 5px;
+}

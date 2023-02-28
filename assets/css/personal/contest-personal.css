@@ -1,0 +1,141 @@
+.contest-personal-center {
+    width: 554px;
+    height: max-content;
+}
+
+.title-contest-manager {
+    width: 100%;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 3px;
+}
+
+.title-contest-manager i {
+    border: 1px solid #1C6CC1;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 2px;
+    background: #1C6CC1;
+    color: #fff;
+    vertical-align: text-bottom;
+}
+
+.title-contest-manager span {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.list-contest-manager {
+    margin-top: 10px;
+    width: 100%;
+    max-height: 500px;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.list-contest-manager ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-contest-manager ul li {
+    border-bottom: 2px solid #ddd;
+    display: flex;
+    justify-content: left;
+    height: max-content;
+    background-color: #fff;
+    transition: background-color 0.2s linear;
+}
+
+.list-contest-manager ul li:last-child {
+    border-bottom: none;
+}
+
+.list-contest-manager ul li:hover {
+    background-color: #f3f7fc;
+}
+
+.control-contest {
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.control-contest form {
+    height: 100%;
+}
+
+.control-contest form button {
+    height: 50%;
+    width: 100%;
+    border: none;
+}
+
+.del-btn-contest {
+    background-color: #f1aeb5;
+}
+
+.edit-btn-contest {
+    background-color: #a3cfbb;
+}
+
+.none-btn-contest {
+    height: 100% !important;
+    background-color: #9ec5fe;
+    pointer-events: none;
+}
+
+.detail-contest {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.title-contest a {
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.title-contest a:hover {
+    text-decoration: underline;
+}
+
+.status-contest {
+    position: relative;
+    color: #4BA66F;
+    font-weight: 600;
+    width: max-content;
+    padding: 2px 4px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.status-contest::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: currentColor;
+    opacity: 0.3;
+    border-radius: inherit;
+}
+
+.timeout {
+    color: #fe595f;
+}
+
+.time-created,
+.address-contest {
+    font-size: 13px;
+    font-weight: 400;
+}

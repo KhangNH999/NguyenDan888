@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#blog-personal-center {
+    width: 554px;
+    float: left;
+}
+
+#blog-personal-center .title-blog-personal {
+    font-size: 21px;
+    padding-bottom: 9px;
+    margin: 0;
+}
+
+#blog-personal-center .title-blog-personal i {
+    border: 1px solid #1C6CC1;
+    font-size: 13px;
+    margin-top: 2px;
+    padding: 5px;
+    border-radius: 2px;
+    background: #1C6CC1;
+    color: #fff;
+}
+
+#blog-personal-center .blog {
+    margin: 5px 0px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#blog-personal-center .title-content-blog>a:hover {
+    text-decoration: underline;
+}
+
+#blog-personal-center .list {
+    border-top: 2px solid #ddd;
+    list-style-type: none;
+    padding: 8px 0;
+    margin: 0;
+}
+
+#blog-personal-center .title-content-blog {
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#blog-personal-center .title-content-blog>a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    margin-left: -11px;
+    line-height: 1;
+}
+
+#blog-personal-center .sub>a,
+#blog-personal-center .sub>span {
+    margin-top: 4px;
+    font-size: 13px;
+    color: #000;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+#blog-personal-center .sub>a {
+    color: #1C6CC1 !important;
+}
+
+#blog-personal-center .sub>a:hover {
+    text-decoration: underline;
+}
+
+#blog-personal-center .sub img {
+    margin-right: -9px;
+}
+
+#blog-personal-center #dl-blog-personal {
+    position: absolute;
+    background: none;
+    border: none;
+    line-height: 1;
+    bottom: 5px;
+    font-size: 20px;
+    color: #F44A4F;
+}
+
+#blog-personal-center #ed-blog-personal {
+    position: absolute;
+    bottom: 0px;
+    right: 28px;
+    border: none;
+    background: none;
+    color: #4BA66F;
+    font-size: 20px;
+}
+
+#blog-personal-center #ed-blog-personal:hover,
+#blog-personal-center #dl-blog-personal:hover {
+    opacity: 0.5;
+}
+
+#blog-personal-center .none {
+    text-align: center;
+    padding: 12px 0;
+    border-bottom: 2px solid #ddd;
+    border-top: 2px solid #ddd;
+}
+
+#blog-personal-center .none span {
+    color: #ddd;
+    font-size: 16px;
+}

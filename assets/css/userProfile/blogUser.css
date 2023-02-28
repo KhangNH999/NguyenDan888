@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#blog-user-center {
+    width: 554px;
+    float: left;
+}
+
+#blog-user-center .title-blog-user {
+    font-size: 21px;
+    padding-bottom: 9px;
+    border-bottom: 0.5px solid #ddd;
+    margin: 0;
+}
+
+#blog-user-center .title-blog-user i {
+    border: 1px solid #1C6CC1;
+    font-size: 13px;
+    margin-top: 2px;
+    padding: 5px;
+    border-radius: 2px;
+    background: #1C6CC1;
+    color: #fff;
+}
+
+#blog-user-center .title-blog-user {
+    font-size: 21px;
+}
+
+
+#blog-user-center .blog {
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 0;
+}
+
+#blog-user-center ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#blog-user-center .title-content-blog>a:hover {
+    text-decoration: underline;
+}
+
+/* #blog-user-center .list {
+    border-bottom: 1px solid #ddd;
+} */
+
+#blog-user-center .title-content-blog {
+    margin: 0;
+    margin: 0 !important;
+    font-size: 15px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 1.43;
+}
+
+#blog-user-center .title-content-blog>a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    margin-left: -11px;
+    line-height: 1;
+}
+
+#blog-user-center .sub>a,
+#blog-user-center .sub>span {
+    margin-top: 4px;
+    font-size: 13px;
+    color: #000;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+#blog-user-center .sub>a {
+    color: #1C6CC1 !important;
+}
+
+#blog-user-center .sub>a:hover {
+    text-decoration: underline;
+}
+
+#blog-user-center .sub img {
+    margin-right: -9px;
+}
+
+#blog-user-center #dl-blog-personal {
+    position: relative;
+    background: none;
+    border: none;
+    color: #ddd;
+    font-size: 18px;
+    line-height: 1;
+    margin-top: -60px;
+}
+
+#blog-user-center #dl-blog-personal:hover {
+    color: #999;
+}
+
+#blog-user-center .none {
+    text-align: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#blog-user-center .none span {
+    color: #ddd;
+    font-size: 16px;
+}

@@ -1,0 +1,210 @@
+.create-pitch {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.post-step {
+    display: table;
+    margin: 0 auto 15px;
+    list-style: none;
+    padding: 0;
+}
+
+.post-step>li {
+    display: table-cell;
+    width: 134px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.post-step .now>span {
+    border-color: #1c6cc1;
+    color: #1c6cc1;
+}
+
+.post-step .dot.now>i {
+    color: #1c6cc1;
+}
+
+.post-step .step {
+    display: inline-block;
+    width: 56px;
+    padding: 12px 0;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #ccc;
+    font-weight: bold;
+}
+
+.post-step .now p {
+    color: #1c6cc1;
+}
+
+.post-step p {
+    color: #ccc;
+    font-weight: bold;
+    padding: 0;
+}
+
+.post-step>li.dot {
+    width: 26px;
+    padding-top: 12px;
+    font-size: 25px;
+    color: #ccc;
+}
+
+.post {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    border: 1px solid #ddd;
+    background: #fff;
+    box-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+}
+
+.post>h3 {
+    line-height: 1.2;
+    font-size: 18px;
+    margin: 24px;
+}
+
+.post h3 i {
+    color: #1c6cc1;
+}
+
+.post .rule-link {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+}
+
+.post .rule-link>a {
+    color: #1c6cc1;
+    text-decoration: none;
+}
+
+.post .rule-link>a:hover {
+    text-decoration: underline;
+}
+
+.edit-post {
+    margin: 0 24px;
+}
+
+.edit-post .field {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-post .th {
+    display: inline-block;
+    width: 25%;
+    font-weight: 400;
+}
+
+.edit-post .td {
+    display: inline-block;
+    width: 69%;
+}
+
+.edit-post .required {
+    color: #FE595F;
+    margin-left: 2px;
+}
+
+.edit-post input,
+.edit-post select,
+.edit-post textarea {
+    padding: 6px 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.edit-post #input-title,
+.edit-post #input-namepitch,
+.edit-post #input-street {
+    width: 100%;
+}
+
+.edit-post .input-time-start,
+.edit-post .input-time-end {
+    width: 40%;
+}
+
+.edit-post #input-price {
+    width: 100%;
+}
+
+.edit-post #input-content {
+    width: 100%;
+    resize: vertical;
+}
+
+.edit-post .submit {
+    display: table;
+    margin: 20px auto;
+    list-style: none;
+    padding: 0;
+}
+
+.edit-post .submit>li {
+    display: table-cell;
+}
+
+.submit .new-submit {
+    display: block;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 4px;
+    background: #1C6CC1;
+    text-shadow: 1px 1px 0 rgb(0 0 0 / 10%);
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF !important;
+    line-height: 1;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.submit .new-submit:hover {
+    opacity: 0.8;
+}
+
+.title-step2 {
+    line-height: 1.2;
+    margin: 24px;
+    text-align: center;
+}
+
+.title-step2 h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content-step2 {
+    line-height: 1.2;
+    margin: 0 24px 24px 24px;
+    text-align: center;
+}
+
+.content-step2 h3 {
+    font-size: 16px;
+    font-style: italic;
+    color: greenyellow;
+}
+
+.mess {
+    font-size: 12px;
+    color: #2E8B57;
+    font-style: italic;
+}
+
+.mess-error {
+    color: #cc0000;
+}

@@ -1,0 +1,120 @@
+#content{
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+#edit-account {
+    width: 750px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    background: #fff;
+    box-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+    padding: 24px 0px 0px 24px;
+    box-sizing: border-box;
+    margin-bottom: 31px;
+}
+
+#edit-account > h3 {
+    line-height: 1.2;
+    font-size: 20px;
+    margin: 0 0 12px;
+}
+
+#edit-account h3 i {
+    color: #1c6cc1;
+}
+
+#edit-account .w15 {
+    margin-bottom: 15px;
+}
+ 
+#edit-account .label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#edit-account .obligatory {
+    color: #FE595F;
+}
+
+#edit-account .img-ac .input-img-account{
+    width: 609px;
+}
+
+#edit-account .img-ac img{
+    width: 84px;
+    height: 84px;
+    border-radius: 42px;
+}
+
+#edit-account input,
+#edit-account select {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    background: #EEE;
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 12px 0;
+    width: 336px;
+}
+
+#edit-account input.group-input{
+    width: 698px;
+}
+
+#sex-ac {
+    width: 190px;
+}
+
+#input-birthday {
+    width: 168px;
+}
+
+#input-address {
+    width: 384px;
+}
+
+.phone-gmail,
+.sex-birthday {
+    overflow: hidden;
+}
+.phone-gmail .part,
+.sex-birthday .part {
+    float: left;
+    margin-right: 25px;
+}
+
+.submit {
+    display: table;
+    margin: 20px auto;
+    list-style: none;
+    padding: 0;
+}
+
+.submit > li {
+    display: table-cell;
+}
+
+.submit #new-submit {
+    display: block;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    background: #1C6CC1;
+    text-shadow: 1px 1px 0 rgb(0 0 0 / 10%);
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF !important;
+    line-height: 1;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    width: 190px;
+}
+.submit #new-submit:hover {
+    opacity: 0.8;
+}

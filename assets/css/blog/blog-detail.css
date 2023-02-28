@@ -1,0 +1,214 @@
+div#detail-blog {
+    float: left;
+    width: 750px;
+    margin: 0 auto;
+    margin-left: 28px;
+}
+
+.tit-detail {
+    display: inline-block;
+    margin-bottom: 18px;
+    color: #000;
+    text-decoration: none;
+    font-size: 21px;
+    width: 100%;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+    padding: 5px;
+}
+
+.tit-detail a:hover,
+.text .author>a:hover {
+    text-decoration: underline;
+}
+
+.tit-detail a {
+    font-size: 21px;
+    width: 750px;
+    color: black;
+    padding: 0;
+    line-height: 1;
+}
+
+.text .author {
+    margin-top: -8px;
+}
+
+.text .author>a {
+    margin-left: -3px;
+    font-weight: 500;
+    color: #1C6CC1;
+    padding: 3px;
+    font-size: 14px;
+}
+
+.detail-sub {
+    margin-bottom: 18px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+}
+
+.detail-sub>li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #1C6CC1;
+}
+
+.button a.btns:hover,
+#more-btns>a:hover {
+    background: #e8f0f8;
+}
+
+.text {
+    margin-left: 40px;
+    padding: 0px 10px;
+    width: max-content;
+    height: 50px;
+}
+
+
+.btn-comment {
+    text-align: right;
+    float: right;
+    margin-top: -34px;
+}
+
+.pict {
+    float: left;
+}
+
+.button {
+    display: flex;
+}
+
+#more-btns {
+    margin: 0px 3px;
+    display: flex;
+}
+
+.page-title2 {
+    margin: 0 !important;
+    padding: 0 0 12px;
+    border-top: solid 1px #DDD;
+    font-size: 18px;
+}
+
+.page-title2 i {
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+}
+
+.comment_create .btn {
+    display: inline-block;
+    margin-left: 12px;
+    margin-bottom: 25px;
+}
+
+.comment_create .right {
+    font-size: 12px;
+    font-size: 1.2rem;
+    text-align: right;
+    color: #888;
+}
+
+.btn.green {
+    background: #4BA66F;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    background: #1C6CC1;
+    text-shadow: 1px 1px 0 rgb(0 0 0 / 10%);
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFF !important;
+    line-height: 1;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+}
+
+#myform {
+    display: block;
+    top: 250px;
+    left: 550px;
+}
+
+#myform {
+    text-align: center;
+    width: 325px;
+    height: 325px;
+    border-radius: 8px;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    background-color: white
+}
+
+#f-bc {
+    background-color: #DDD;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 0px 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    margin: -5px -2px;
+}
+
+#f-inp>textarea {
+    width: 95%;
+    margin: 10px 10px;
+    padding: 5px 10px;
+    border: none;
+    height: 160px;
+    border-radius: 5px;
+    background: #eee;
+    line-height: 2;
+    resize: none;
+}
+
+#dl-comments-bl {
+    float: right;
+    background: none;
+    border: none;
+    color: #ddd;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.date {
+    margin-top: -8px;
+}
+
+.date>span {
+    font-size: 13px;
+    color: #888;
+}
+
+#image-blog {
+    text-align: center;
+}
+
+#image-blog>img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.blog-liked {
+    background-color: #bb2d3b;
+    border-color: #bb2d3b;
+}

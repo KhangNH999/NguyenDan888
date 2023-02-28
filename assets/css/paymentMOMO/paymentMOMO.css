@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#center-payment {
+    width: 750px;
+    float: left;
+    min-height: auto;
+    margin: 0 auto;
+    margin-left: 28px;
+    margin-bottom: 50px;
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 24px;
+    box-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+}
+#center-payment .payment-pitch th{
+    text-align: left;
+    width: 204px;
+}
+#center-payment .payment-pitch .title-info-pay{
+    color: #000;
+    font-size: 21px;
+}
+#center-payment .payment-pitch .title-choosepay{
+    color: #000;
+    font-size: 21px;
+    margin-top: 5px;
+}
+#center-payment .payment-pitch #input_info{
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    background: #EEE;
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 12px 0;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+}
+#apply-payment{
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+    padding: 5px;
+    height: 209px;
+}
+#apply-payment #MoMo input.payment-MoMo{
+    display: inline-block;
+    margin: 0 auto;
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    width: 141.7px;
+    border: 1px solid #ddd;
+    background: #fff;
+    box-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+    margin-right: 18px;
+    margin-top: 15px;
+    margin-left: 21px;
+}
+#apply-payment #MoMo p{
+    text-align: center;
+    font-weight: 500;
+}
+#apply-payment #VnPay input.payment-VnPay{
+    display: inline-block;
+    margin: 0 auto;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: transparent;
+    width: 141.7px;
+    border: 1px solid #ddd;
+    background: #fff;
+    box-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+    margin-top: 15px;
+    background-image: url(../../images/payment/vnpay.png);
+    background-position: center;
+    height: 141.7px;
+    background-size: 153px;
+    background-repeat: no-repeat;
+}
+#apply-payment #VnPay p{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 3px;
+}
+.payment-pitch .payment-cancel-input{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 12px 98px;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background: #EEE;
+    text-decoration: none;
+    margin-left: 247px;
+    margin-top: 15px;
+}

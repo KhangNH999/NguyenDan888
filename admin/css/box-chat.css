@@ -1,0 +1,227 @@
+.box-chat {
+    height: 500px;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+    margin-right: 20px;
+    display: flex;
+    justify-content: left;
+}
+
+.box-menu-user {
+    height: 500px;
+    width: 400px;
+
+}
+
+.box-chat-user {
+    height: 500px;
+    width: 75%;
+}
+
+.box-list-user {
+    height: 500px;
+    list-style-type: none;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.box-data-user {
+    height: max-content;
+
+    display: flex;
+    justify-content: left;
+    justify-items: center;
+    padding: 10px 0px 10px 10px;
+    text-decoration: none;
+}
+
+.box-data-user:hover {
+    background-color: #ddd;
+}
+
+.box-selected {
+    background-color: #f3f7fc;
+}
+
+.box-img-user {
+    height: 70px;
+    width: 70px;
+
+}
+
+.box-img-user>img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.box-img-user>.status-user {
+    width: 20px;
+    height: 20px;
+    margin-left: 52px;
+    margin-top: -27px;
+    z-index: 2;
+    border-radius: 50%;
+    padding: 0px 8px;
+    background: rgb(213, 54, 54);
+    border: 2px solid #fff;
+    position: absolute;
+}
+
+.box-img-user>.login {
+    background: #4BA66F;
+}
+
+
+.box-detail {
+    width: 80%;
+    height: max-content;
+}
+
+.user-date {
+    height: 35px;
+    display: flex;
+    justify-content: left;
+    padding-top: 8px;
+}
+
+
+.content-notify {
+
+    height: 35px;
+    display: flex;
+    justify-content: left;
+}
+
+.user-name,
+.user-content {
+    width: 75%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 35px;
+    padding-left: 10px;
+}
+
+.user-name {
+    font-weight: bold;
+    color: #000;
+}
+
+.user-content {
+    color: rgb(156, 115, 115);
+}
+
+.user-time {
+    width: 25%;
+    text-align: right;
+    font-size: 13px;
+    line-height: 35px;
+    margin-right: 10px;
+}
+
+.user-notify {
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(236, 45, 45);
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 6px;
+    font-size: 11px;
+    color: #fff;
+    line-height: 11px;
+}
+
+/* -------------------------------- */
+#content-chat-slide {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 90%;
+}
+
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    float: left;
+    max-width: 50px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+.time-left {
+    float: left;
+    color: #999;
+}
+
+.content-chat-box {
+    padding: 10px 0px;
+}
+
+/* ------------------------------------------------------ */
+
+#comment-chat-slide,
+.form-chat {
+    height: 10%;
+    width: 100%;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: left;
+    justify-items: center;
+}
+
+.input-comment {
+    height: 40px;
+    width: 90%;
+    margin: 3px;
+}
+
+.input-comment>textarea {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    padding: 10px;
+    line-height: 20px;
+    resize: none;
+}
+
+.submit-comment {
+    height: 40px;
+    width: 10%;
+    margin: 3px;
+}
+
+.submit-comment>button {
+    width: 100%;
+    height: 40px;
+}
